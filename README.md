@@ -2,7 +2,7 @@
 
 <p align="center">
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Kauany-Marques&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="Estatísticas do GitHub"/>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU-USUARIO-DO-GITHUB&layout=compact&langs_count=7&theme=dracula" alt="Principais Linguagens"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kauany-Marques&layout=compact&langs_count=7&theme=dracula" alt="Principais Linguagens"/>
 </p>
 
 Sou uma desenvolvedora Full Stack recém-formada em Análise e Desenvolvimento de Sistemas, com uma paixão por transformar ideias em soluções tecnológicas funcionais e eficientes. Minha jornada me levou a explorar desde a criação de interfaces intuitivas até a robustez do backend, infraestrutura e gestão de banco de dados. Estou sempre em busca de aprimoramento e novos desafios.
