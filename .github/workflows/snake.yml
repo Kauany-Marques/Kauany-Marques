@@ -11,9 +11,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    # ADICIONADO: Seção de Permissões
-    # Esta linha dá ao robô a permissão para escrever no seu repositório.
     permissions:
       contents: write
 
@@ -28,13 +25,13 @@ jobs:
           # Seu nome de usuário do GitHub
           github_user_name: Kauany-Marques
           
-          # Define o nome e o local do arquivo que será gerado
-          outputs: dist/github-contribution-grid-snake.svg
+          # ESTA É A LINHA QUE FORÇA O TEMA ESCURO (FUNDO PRETO)
+          outputs: dist/github-contribution-grid-snake.svg?color_snake=green&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
 
       # Etapa 3: Envia o arquivo gerado de volta para o seu repositório
       - run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add .
-          git commit -m "feat: generate snake animation" || exit 0
+          git commit -m "feat: generate snake animation (dark theme)" || exit 0
           git push
