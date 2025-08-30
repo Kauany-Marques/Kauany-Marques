@@ -15,15 +15,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # 1. Pega o código do seu repositório
-      - uses: actions/checkout@v2
+      # 1. Pega o código do seu repositório (VERSÃO ATUALIZADA)
+      - uses: actions/checkout@v4
 
-      # 2. Gera a animação da snake
-      - uses: Platane/snk@master
+      # 2. Gera a animação da snake (VERSÃO ATUALIZADA)
+      - uses: Platane/snk@v3
         id: snake-gif
         with:
           # IMPORTANTE: Coloque seu nome de usuário do GitHub aqui
-          github_user_name: SEU-USUARIO-DO-GITHUB
+          github_user_name: Kauany-Marques
           
           # Define onde o arquivo da animação será salvo
           svg_out_path: dist/github-contribution-grid-snake.svg
