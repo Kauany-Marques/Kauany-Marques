@@ -48,6 +48,10 @@ Tenho um interesse especial em construir sistemas completos, focando na performa
     <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/></a>
 </p>
 
+<p align="center">
+  <img src="dist/github-contribution-grid-snake.svg" alt="Animação das minhas contribuições no GitHub" style="max-width: 100%;"/>
+</p>
+
 ---
 
 ###  Minha Apresentação em Código
