@@ -6,7 +6,7 @@ Tenho um interesse especial em construir sistemas completos, focando na performa
 
 ---
 
-### 💻 O Que Estou Aprendendo e Me Aprofundando
+###  O Que Estou Aprendendo e Me Aprofundando
 
 * **Frameworks Back-end:** Spring Boot para aplicações Java robustas.
 * **Contêineres e Orquestração:** Docker e conceitos de Kubernetes.
@@ -15,7 +15,7 @@ Tenho um interesse especial em construir sistemas completos, focando na performa
 
 ---
 
-### 🎯 Áreas de Foco
+###  Áreas de Foco
 
 <p>
     <img src="https://img.shields.io/badge/JAVA-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java Badge">
@@ -27,7 +27,7 @@ Tenho um interesse especial em construir sistemas completos, focando na performa
 
 ---
 
-### 🛠️ Tecnologias e Ferramentas
+###  Tecnologias e Ferramentas
 
 <p align="left">
     <a href="https://www.java.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/></a>
@@ -45,7 +45,7 @@ Tenho um interesse especial em construir sistemas completos, focando na performa
 
 ---
 
-### 🚀 Minha Apresentação em Código
+###  Minha Apresentação em Código
 
 ```java
 public class Kauany {
