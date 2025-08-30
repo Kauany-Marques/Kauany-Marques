@@ -1,37 +1,37 @@
-# Nome da Action
+# Nome da Automação
 name: Generate Snake Animation
 
-# Quando a Action deve rodar
+# Define quando a automação vai rodar
 on:
   # Roda automaticamente a cada 12 horas
   schedule:
     - cron: "0 */12 * * *"
   
-  # Permite que você rode a Action manualmente na aba "Actions" do GitHub
+  # Permite que você inicie a automação manualmente na aba "Actions"
   workflow_dispatch:
 
-# O que a Action vai fazer
+# Tarefas que a automação vai executar
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # 1. Pega o código do seu repositório (VERSÃO ATUALIZADA)
+      # Etapa 1: Baixa o código do seu repositório para a máquina virtual
       - uses: actions/checkout@v4
 
-      # 2. Gera a animação da snake (VERSÃO ATUALIZADA)
+      # Etapa 2: Gera a animação da snake com base no seu usuário
       - uses: Platane/snk@v3
         id: snake-gif
         with:
           # IMPORTANTE: Coloque seu nome de usuário do GitHub aqui
           github_user_name: Kauany-Marques
           
-          # Define onde o arquivo da animação será salvo
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          # Define o nome e o local do arquivo de imagem que será gerado
+          outputs: dist/github-contribution-grid-snake.svg
 
-      # 3. Envia o novo arquivo gerado de volta para o seu repositório
+      # Etapa 3: Envia o arquivo gerado de volta para o seu repositório
       - run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add .
-          git commit -m "Generate new snake animation" || exit 0
+          git commit -m "feat: generate snake animation" || exit 0
           git push
