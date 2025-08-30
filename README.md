@@ -48,34 +48,93 @@ Tenho um interesse especial em construir sistemas completos, focando na performa
 ###  Minha Apresentação em Código
 
 ```java
-public class Kauany {
-    private String nome = "Kauany";
-    private String formacao = "Análise e Desenvolvimento de Sistemas";
-    private String[] habilidades = {
-        "Java", "Spring Boot", "SQL", "MySQL", "PostgreSQL",
-        "HTML5", "CSS3", "JavaScript", "React",
-        "Git", "Docker", "AWS Basics"
-    };
-    private String status = "Buscando oportunidades para iniciar minha carreira como Desenvolvedora Full Stack.";
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
-    public void exibirPerfil() {
-        System.out.println("Olá, meu nome é " + nome + "!");
-        System.out.println("Sou formada em " + formacao + ".");
-        System.out.print("Minhas principais habilidades incluem: ");
-        for (String habilidade : habilidades) {
-            System.out.print(habilidade + ", ");
-        }
-        System.out.println("\nStatus atual: " + status);
-    }
+  <title>Index</title>
+</head>
+<body>
+  
+ <nav>
+    <div class="logo">School Mapping</div>
+    <ul>
+      <li><a href="#">Início</a></li>
+      <li><a href="#">BBB</a></li>
+      <li><a href="#">CCC</a></li>
+      <li><a href="login.html">Login</a> <a href="login.html"></a></li>
+    </ul>
+  </nav>
 
-    public void conectar() {
-        System.out.println("LinkedIn: [https://www.linkedin.com/in/SEU-LINKEDIN/](https://www.linkedin.com/in/SEU-LINKEDIN/)");
-        System.out.println("Email: seu.email@exemplo.com");
-    }
+  <div class="fundoimg"> <img src="./assets/mt4.png" alt=""></div>
+<div class="conteudo">
+  <div class="texto-roxo">
+    <h1>Bem-vindo ao School Mapping</h1>
+    <p>Uma plataforma inteligente para analisar o IDEB em São Paulo, identificar desigualdades educacionais e apoiar decisões estratégicas na gestão do ensino </div>
+</div>
 
-    public static void main(String[] args) {
-        Kauany meuPerfil = new Kauany();
-        meuPerfil.exibirPerfil();
-        meuPerfil.conectar();
+<div class="pag2">
+<div class="esq">
+<h2>IDEB</h2>
+<p>Loremreritc habitasse platea dictumst. Suspendisse gravida vestibulum felis id auctor. Aenean ipsum sapien, euismod et est non, convallis hendrerit sapien. Fusce auctor porta ante quis pulvinar. Pellentesque vel erat ac nulla rhoncus tempus. Mauris mattis dui at blandit dignissim. Maecenas eu placerat erat, vitae varius lectus. Donec gravida faucibus fringilla. Ut et pellentesque est. Pellentesque ac ipsum et lorem mollis iaculis.
+lacus vitae, eleifendlacinia ac.</p>
+</div>
+<div class="dir">
+  <div class="linha">
+    <div class="card">
+      <h5>Desigualdade</h5>
+        <i class="bi bi-reception-3 icone"></i>
+    </div>
+       <div class="card">
+      <h5>Complexidade</h5>
+    <i class="bi bi-question-lg icone"></i>
+    </div>
+  </div>
+  <div class="linha">
+       <div class="card">
+      <h5>Precisão</h5>
+       <i class="bi bi-bullseye icone"></i>
+    </div>
+       <div class="card">
+      <h5>Desenvolvimento</h5>
+<i class="bi bi-journal-check icone"></i>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+<div class="pag3">
+  <img src="./assets/estudando.png" alt="">
+  <div class="texto-sobre">
+    <h2>O Que Fazemos</h2>
+    <p>Trazemos facilidade na visualização dos dados trazidos pelo IDEB, além de manipulá-los + Loremreritc habitasse platea dictumst. Suspendisse gravida vestibulum felis id auctor. Aenean ipsum sapien, euismod et est non, convallis hendrerit sapien. Fusce auctor porta ante quis pulvinar. Pellentesque vel,</p>
+  </div>
+</div>
+
+<div class="pag3">
+  <img src="./assets/bencerto.png" alt="">
+  <div class="texto-sobre2">
+    <h2>Resultados</h2>
+    <p>tomada de decisão + + + Loremreritc habitasse platea dictumst. Suspendisse gravida vestibulum felis id auctor. Aenean ipsum sapien, euismod et est non, convallis hendrerit sapien. Fusce auctor porta ante quis pulvinar. Pellentesque vel erat ac nulla rhoncus tempus. Mauris mattis dui at blandit dignissim. ,</p>
+  </div>
+</div>
+
+<div class="pag5">
+  <div class="esq5">
+    <p>Faça parte disto: <strong><a href="cadastro.html">cadastre-se</a></strong></p>
+  </div>
+  <div class="dir5">
+    <img src="./assets/10.png" alt="">
+  </div>
+</div>
+
+</body>
+</html>
     }
 }
