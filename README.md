@@ -1,9 +1,5 @@
 # Olá, eu sou a Kauany! 👋
 
-<p align="center">
-  <img src="https://profile-views.duclab.repl.co/index.svg?username=Kauany" alt="Visualizações de Perfil">
-</p>
-
 Sou uma desenvolvedora Full Stack recém-formada em Análise e Desenvolvimento de Sistemas, com uma paixão por transformar ideias em soluções tecnológicas funcionais e eficientes. Minha jornada me levou a explorar desde a criação de interfaces intuitivas até a robustez do backend, infraestrutura e gestão de banco de dados. Estou sempre em busca de aprimoramento e novos desafios.
 
 Tenho um interesse especial em construir sistemas completos, focando na performance e escalabilidade. Acredito que a combinação de um bom design com uma arquitetura sólida é fundamental para o sucesso de qualquer projeto. Dedico meus estudos e meu tempo à prática contínua em diversas tecnologias.
