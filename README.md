@@ -1,6 +1,8 @@
 # Olá, eu sou a Kauany! 
 
-
+<p align="center">
+  <img src="dist/github-contribution-grid-snake.svg" alt="Animação das minhas contribuições no GitHub" style="max-width: 100%;"/>
+</p>
 
 Sou uma desenvolvedora Full Stack recém-formada em Análise e Desenvolvimento de Sistemas, com uma paixão por transformar ideias em soluções tecnológicas funcionais e eficientes. Minha jornada me levou a explorar desde a criação de interfaces intuitivas até a robustez do backend, infraestrutura e gestão de banco de dados. Estou sempre em busca de aprimoramento e novos desafios.
 
